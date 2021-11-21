@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Abja_Life/static/css/main.d1d9fbe4.chunk.css",
+    "main.js": "/Abja_Life/static/js/main.1abb5167.chunk.js",
+    "main.js.map": "/Abja_Life/static/js/main.1abb5167.chunk.js.map",
+    "runtime-main.js": "/Abja_Life/static/js/runtime-main.9b8ddff3.js",
+    "runtime-main.js.map": "/Abja_Life/static/js/runtime-main.9b8ddff3.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/Abja_Life/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.e968f65e.chunk.js": "/Abja_Life/static/js/2.e968f65e.chunk.js",
+    "static/js/2.e968f65e.chunk.js.map": "/Abja_Life/static/js/2.e968f65e.chunk.js.map",
+    "static/js/3.be47353e.chunk.js": "/Abja_Life/static/js/3.be47353e.chunk.js",
+    "static/js/3.be47353e.chunk.js.map": "/Abja_Life/static/js/3.be47353e.chunk.js.map",
+    "index.html": "/Abja_Life/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/Abja_Life/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.d1d9fbe4.chunk.css.map": "/Abja_Life/static/css/main.d1d9fbe4.chunk.css.map",
+    "static/js/2.e968f65e.chunk.js.LICENSE.txt": "/Abja_Life/static/js/2.e968f65e.chunk.js.LICENSE.txt",
+    "static/media/404page.css": "/Abja_Life/static/media/404.462da8fc.jpg",
+    "static/media/500.712f6e15.jpg": "/Abja_Life/static/media/500.712f6e15.jpg",
+    "static/media/blog.2259ea3a.jpg": "/Abja_Life/static/media/blog.2259ea3a.jpg",
+    "static/media/cart.f0d47d21.svg": "/Abja_Life/static/media/cart.f0d47d21.svg",
+    "static/media/page1.css": "/Abja_Life/static/media/cont1.8325af21.jpg",
+    "static/media/delete.617dd641.svg": "/Abja_Life/static/media/delete.617dd641.svg",
+    "static/media/edit.8df08764.svg": "/Abja_Life/static/media/edit.8df08764.svg",
+    "static/media/empty_cart.2aa5e0cc.png": "/Abja_Life/static/media/empty_cart.2aa5e0cc.png",
+    "static/media/heart.f358882f.svg": "/Abja_Life/static/media/heart.f358882f.svg",
+    "static/media/500page.css": "/Abja_Life/static/media/logo.69649cae.png",
+    "static/media/pic.4aeb3e95.jpg": "/Abja_Life/static/media/pic.4aeb3e95.jpg",
+    "static/media/pic.55a50aad.jpg": "/Abja_Life/static/media/pic.55a50aad.jpg",
+    "static/media/rarrow.b8769465.svg": "/Abja_Life/static/media/rarrow.b8769465.svg",
+    "static/media/thinking.8347dd59.svg": "/Abja_Life/static/media/thinking.8347dd59.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b8ddff3.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.e968f65e.chunk.js",
+    "static/css/main.d1d9fbe4.chunk.css",
+    "static/js/main.1abb5167.chunk.js"
+  ]
+}
