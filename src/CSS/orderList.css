@@ -1,0 +1,23 @@
+.ord_hist{
+    padding-top: 100px;
+}
+.ord_hist > .heading{
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid #d052e0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ord_hist .order_list{
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+.ord_hist .order_list:hover{
+    border-bottom: 2px solid #d052e0;
+}
+.ord_hist .order_list .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}

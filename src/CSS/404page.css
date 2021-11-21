@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+.error404{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../assets/Error/404.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.error404 .logo{
+    height: 80px;
+    width: 100px;
+    background-image: url(../assets/nav/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.error404 .err{
+    color: white;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 80px;
+}
+.error404 .home_btn{
+    color: white;
+    font-size: 22px;
+    border-radius: 100px;
+    padding: 20px 40px;
+    margin-bottom: 80px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    background-color: hsl(266, 100%, 54%);
+    transition: 0.5s ease-in-out;
+}
+.error404 .home_btn:hover{
+    background-color: hsl(266, 100%, 58%);
+}
+.error404 .home_btn img{
+    animation: arrow 2s linear infinite normal forwards;
+}
+@keyframes arrow {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

@@ -1,0 +1,193 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.formcomp .cont2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.formcomp .cont2 .image{
+    background-image: url(../assets/page3/people.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 70%;
+    position: absolute;
+    z-index: -1;
+}
+.formcomp .cont2 .form{
+    width: 70%;
+    background-color: #90b4fdb9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000B56;
+    padding: 20px 40px;
+}
+.formcomp .cont2 .form .bigheading{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 15px;
+}
+.formcomp .cont2 .form .smallheading{
+    font-size: 18px;
+    text-align: center;
+}
+.formcomp .cont2 .form .littlebigheading{
+    font-size: 24px;
+    text-align: center;
+}
+.formcomp .cont2 .form .form_start{
+    width: 100%;
+    margin-top: 20px;
+}
+.formcomp .cont2 .form .form_start .ele{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.formcomp .cont2 .form .form_start .ele .category{
+    color: #000B56;
+    font-size: 18px;
+    width: 20%;
+    font-weight: 700;
+}
+.formcomp .cont2 .form .form_start .ele .inputbox{
+    color: #000B56;
+    width: 80%;
+    margin-left: 20px;
+}
+.formcomp .cont2 .form .form_start .ele .inputbox.phone{
+    display: flex;
+}
+.formcomp .cont2 .form .form_start .ele .inputbox.phone .code{
+    width: 25%;
+    padding-right: 20px;
+}
+.formcomp .cont2 .form .form_start .ele .inputbox.phone .num{
+    width: 75%;
+}
+.formcomp .cont2 .form .form_start .ele .inputbox .form_control{
+    padding: 10px;
+}
+.formcomp .submit_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.formcomp .submit_container .submit_btn{
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    background-color: #574EFA;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.formcomp .submit_container .submit_btn:hover{
+    background-color: #000492;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 550px){
+    
+    .formcomp .cont2 .image{
+        height: 700px;
+        width: 80%;
+        position: absolute;
+        z-index: -1;
+    }
+    .formcomp .cont2 .form{
+        width: 90%;
+    }
+    .formcomp .cont2 .form .bigheading{
+        font-size: 28px;
+    }
+    .formcomp .cont2 .form .form_start .ele .category{
+        font-size: 18px;
+        width: 25%;
+    }
+    .formcomp .cont2 .form .form_start .ele .inputbox{
+        width: 70%;
+    }
+    .formcomp .cont2 .form .form_start .ele .inputbox.phone .code{
+        width: 35%;
+        padding-right: 15px;
+    }
+    .formcomp .cont2 .form .form_start .ele .inputbox.phone .num{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    
+    .formcomp .cont2 .image{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+        width: 90%;
+        position: absolute;
+        z-index: -1;
+    }
+    .formcomp .cont2 .form{
+        width: 90%;
+        background-color: #90b4fdb9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #000B56;
+        padding: 20px 20px;
+    }
+    .formcomp .cont2 .form .bigheading{
+        font-size: 24px;
+        line-height: 15px;
+    }
+    .formcomp .cont2 .form .smallheading{
+        font-size: 16px;
+        text-align: center;
+    }
+    .formcomp .cont2 .form .littlebigheading{
+        font-size: 18px;
+    }
+    .formcomp .cont2 .form .form_start{
+        margin-top: 10px;
+    }
+    .formcomp .cont2 .form .form_start .ele{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formcomp .cont2 .form .form_start .ele .category{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .formcomp .cont2 .form .form_start .ele .inputbox{
+        color: #000B56;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .formcomp .cont2 .form .form_start .ele .inputbox.phone{
+        display: block;
+    }
+    .formcomp .cont2 .form .form_start .ele .inputbox.phone .code{
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    .formcomp .cont2 .form .form_start .ele .inputbox.phone .num{
+        width: 100%;
+    }
+    .formcomp .submit_container{
+        margin-top: 30px;
+    }
+}

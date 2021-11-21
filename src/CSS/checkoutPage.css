@@ -1,0 +1,99 @@
+.checkout{
+    padding-top: 120px;
+}
+.checkout .save_add{
+    padding-right: 20px;
+}
+.checkout .save_add .box{
+    margin: 20px 0;
+    padding: 20px 30px;
+    padding-bottom: 40px;
+    background-color: hsla(293, 100%, 88%, 0.5);
+    position: relative;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    border: 2px solid rgb(225, 0, 255);
+}
+.checkout .save_add .box:hover{
+    transform: scale(1.025);
+    box-shadow: rgba(85, 37, 92,0.3) 0px 13px 27px -5px, rgba(225, 0, 255,0.7) 0px 8px 16px -8px;
+}
+.checkout .save_add .box h5 span{
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+}
+.checkout .save_add .box p{
+    cursor: pointer;
+    font-size: 15px;
+}
+.checkout .save_add .box .delete,
+.checkout .save_add .box .edit{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    opacity: 0.7;
+    background-color:  rgb(190, 70, 206);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.checkout .save_add .box .edit{
+    right: 56px;
+}
+.checkout .save_add .box .delete:hover,
+.checkout .save_add .box .edit:hover{
+    opacity: 1;
+}
+.checkout .save_add .box .delete img,
+.checkout .save_add .box .edit img{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+}
+.checkout .save_add .new_add{
+    margin-top: 20px;
+}
+.checkout .new_add .form-group{
+    margin-top: 20px;
+}
+.checkout .order_summary{
+    padding: 20px 30px;
+    background-color: hsla(293, 100%, 88%, 0.5);
+    height: fit-content;
+}
+.checkout .order_summary .row{
+    padding: 15px 0;
+    text-align: center;
+}
+.checkout .order_summary .header{
+    border-top: 2px solid hsla(293, 60%, 64%, 0.69);
+    border-bottom: 2px solid hsla(293, 60%, 64%, 0.69);
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.checkout .order_summary .subtotal,
+.checkout .order_summary .shipping,
+.checkout .order_summary .total{
+    font-weight: 500;
+}
+.checkout .order_summary .total{
+    border-top: 2px solid hsla(293, 60%, 64%, 0.69);
+}
+.checkout .order_summary .pay_cont{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.checkout .order_summary .pay_cont .pay_btn{
+    background-color: hsl(293, 60%, 64%);
+    color: white;
+    padding: 15px 0;
+    border-radius: 50px;
+    font-size: 18px;
+}

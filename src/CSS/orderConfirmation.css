@@ -1,0 +1,58 @@
+.order_conf{
+    padding-top: 100px;
+}
+.order_conf .order_status{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+}
+.order_conf .order_details .detail_cont{
+    padding: 20px 10px;
+}
+.order_conf .order_details .detail_cont .detail{
+    background-color: rgba(238, 238, 238, 0.7);
+    border-radius: 5px;
+    padding: 30px 40px;
+}
+.order_conf .order_details .detail_cont .detail .heading{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.order_conf .order_details .detail_cont .detail .section{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order_conf .order_details .detail_cont .detail .section .title{
+    color: grey;
+}
+.order_conf .order_details .order_detail_sec{
+    background-color: rgba(238, 238, 238, 0.7);
+    padding: 30px 3vw;
+    margin-bottom: 50px;
+}
+.order_conf .order_details .order_detail_sec .heading{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.order_conf .order_details .order_detail_sec .row{
+    padding: 15px 0;
+    text-align: center;
+}
+.order_conf .order_details .order_detail_sec .header{
+    border-top: 2px solid rgb(212, 212, 212);
+    border-bottom: 2px solid rgb(212, 212, 212);
+    font-weight: 500;
+    font-size: 17px;
+}
+.order_conf .order_details .order_detail_sec .subtotal,
+.order_conf .order_details .order_detail_sec .shipping,
+.order_conf .order_details .order_detail_sec .total{
+    font-weight: 500;
+}
+.order_conf .order_details .order_detail_sec .total{
+    border-top: 2px solid rgb(212, 212, 212);
+}

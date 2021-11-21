@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(241,246,247)
+}
+::-webkit-scrollbar-thumb{
+    background-color: #9b6bda;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.nav{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 5;
+    box-shadow: 0px 5px 20px 5px rgba(255, 255, 255, 0.3) ;
+}
+.nav .nav_cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.nav .nav_cont .logo{
+    height: 80px;
+    width: 100px;
+    background-image: url(../assets/nav/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav .nav_cont .nav_items{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .nav_cont .nav_items .tab{
+    font-size: 15px;
+    position: relative;
+    padding: 15px;
+}
+.nav .nav_cont .nav_items .tab:hover{
+    color: rgb(56,74,235);
+    cursor: pointer;
+}
+.nav .nav_cont .nav_items .tab.contact .dropdown{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    height: 0px;
+    position: absolute;
+    left: 0;
+    color: black;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+}
+.nav .nav_cont .nav_items .tab.contact:hover .dropdown,
+.nav .nav_cont .nav_items .tab.shop:hover .dropdown{
+    animation: drop_down 0.5s ease-in-out forwards;    
+}
+
+@keyframes drop_down {
+
+    0%{
+        height: fit-content;
+        transform: translateY(60px);
+
+    }
+    100%{
+        height: fit-content;
+        opacity: 1;
+        transform: translateY(10px);
+    }
+}
+.nav .nav_cont .nav_items .tab.contact .dropdown .option{
+    padding: 15px 20px;
+    width: 180px;
+    font-size: 14px;
+    transition: 0.5s ease-in-out;
+}
+.nav .nav_cont .nav_items .tab.contact .dropdown .option:hover{
+    color: white;
+    background-color: #cd6bda;
+    cursor: pointer;
+}
+.nav .nav_cont .nav_items .tab.shop .dropdown{
+    background-color: white;
+    display: flex;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    color: black;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+    width: 500px;
+    opacity: 0;
+    height: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: default;
+}
+.nav .nav_cont .nav_items .tab.shop .dropdown .column{
+    padding: 10px 0;
+    margin: 40px 60px;
+}
+.nav .nav_cont .nav_items .tab.shop .dropdown .column:nth-child(2){
+    padding: 10px 40px;
+    margin: 40px 0;
+    border-left: 2px solid #cd6bda;
+    height: fit-content;
+}
+.nav .nav_cont .nav_items .tab.shop .dropdown .column .heading{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.nav .nav_cont .nav_items .tab.shop .dropdown .column .opt{
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 5px;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+.nav .nav_cont .nav_items .tab.shop .dropdown .column .opt:hover{
+    transform: translateX(5px);
+    color: #cd6bda;
+}
+.nav .nav_cont .box{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .nav_cont .box .search{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    position: relative;
+    background-image: url(../assets/nav/search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.nav .nav_cont .box .shop_cart{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-image: url(../assets/nav/shopping.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.nav .nav_cont .box .shop_cart .counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    background-color: #cd6bda;
+    color: white;
+    border-radius: 50%;
+}
+.nav .nav_cont .btn_{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+    color: black;
+}
+.nav .nav_cont .btn_:hover{
+    cursor: pointer;
+    border: 2px solid #cd6bda;
+}

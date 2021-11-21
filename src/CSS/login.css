@@ -1,0 +1,176 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.modal form .row1{
+    margin: 30px 0;
+}
+.modal form select{
+    width: 20%;
+    margin-right: 5%;
+    height: 30px;
+    outline: 0px;
+    border: 0px;
+    border-bottom: 2px solid #cd6bda;
+}
+.modal form .num{
+    position: relative;
+    width: 70%;
+    height: 30px;
+    outline: 0px;
+    border: 0px;
+    border-bottom: 2px solid #cd6bda;
+    transition: 0.5s ease-in-out;
+}
+.modal form .error{
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: 0.5s ease;
+}
+.modal form .num.invalid{
+    animation: vibrate 0.5s linear normal forwards;
+    border-bottom: 2px solid red;
+}
+@keyframes vibrate {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.modal form .error.invalid{
+    transform: translateX(0px);
+    opacity: 1;
+    color: red;
+}
+.modal form .num.valid{
+    border-bottom: 2px solid #36d446;
+}
+.modal form .error.valid{
+    transform: translateX(0px);
+    opacity: 1;
+    color: #36d446;
+}
+
+.modal .otp_btn_cont{
+    position: relative;
+}
+.modal .otp_btn_cont .r_otp_btn{
+    float: right;
+    margin-right: 20px;
+    padding: 5px 15px;
+    border-radius: 100px;
+    font-size: 14px;
+    background-color: white;
+    border: 2px solid #cd6bda;
+    width: fit-content;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+}
+.modal .otp_btn_cont .coun{
+    position: absolute;
+    right: 20px;
+    font-size: 14px;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+    opacity: 0;
+}
+
+.modal .r_otp_btn:hover{
+    background-color: #cd6bda;
+    color: white;
+    cursor: pointer;
+}
+.modal .otp_cont{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.modal .otp_group{
+    width: 50%;
+    transform: translateY(-150%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+.modal .otp_group.visible{
+    transform: translateY(0%);
+    opacity: 1;
+}
+.modal form .otp{
+    position: relative;
+    height: 30px;
+    outline: 0px;
+    border: 0px;
+    background-color: white;
+    border-bottom: 2px solid #cd6bda;
+}
+.modal form .err{
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+    transition: 0.5s ease-in-out;
+}
+.modal form .otp.invalid{
+    animation: vibrate 0.5s linear normal forwards;
+    border-bottom: 2px solid red;
+}
+@keyframes vibrate {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.modal form .err.invalid{
+    transform: translateX(0px);
+    color: red;
+}
+.modal form .otp.valid{
+    border-bottom: 2px solid #36d446;
+}
+.modal form .sub{
+    float: center;
+    margin-right: 20px;
+    padding: 5px 15px;
+    border-radius: 100px;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid #36d446;
+    width: fit-content;
+    transition: 0.5s ease-in-out;
+}
+.modal .sub:hover{
+    background-color: #36d446;
+    color: white;
+}
+.modal .login_msg{
+    font-size: 13px;
+    opacity: 0;
+    cursor: default;
+    transition: 0.5s ease-in-out;
+}
+.modal .login_msg.valid{
+    color: #36d446;
+    opacity: 1;
+}
+.modal .login_msg.invalid{
+    color: red;
+    opacity: 1;
+}

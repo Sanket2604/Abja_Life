@@ -1,0 +1,54 @@
+.error500{
+    background-color: rgb(184, 219, 231);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error500 .logo{
+    height: 80px;
+    width: 100px;
+    background-image: url(../assets/nav/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.error500 .home_btn{
+    color: white;
+    font-size: 22px;
+    border-radius: 100px;
+    padding: 20px 40px;
+    margin-top: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    background-color: hsl(266, 100%, 54%);
+    transition: 0.5s ease-in-out;
+}
+.error500 .home_btn:hover{
+    background-color: hsl(266, 100%, 58%);
+}
+.error500 .home_btn img{
+    animation: arrow 2s linear infinite normal forwards;
+}
+@keyframes arrow {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
