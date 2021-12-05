@@ -71,16 +71,16 @@ class Main extends Component {
             <div>
                 <Nav isModalOpen={this.state.isModalOpen} login={this.login}/>
                 <Switch>
-                    <Route path="/home" component={() => <Home login={this.login} />} />
-                    <Route path="/shop/:cid" component={Shop} />
-                    <Route path="/detail/:pid" component={Detail} />
-                    <Route path="/checkout" component={() => <Checkout updShipAdd={this.updShipAdd}/>} />
-                    <Route path="/order_confirm"  component={OrderConfirm} />
-                    <Route path="/shopping_cart" component={Cart} />
-                    <Route path="/order_history" component={Orders} />
-                    <Route path="/404" component={Error404} />
-                    <Route path="/500" component={Error500} />
-                    <Redirect to="/home" />
+                    <Route path="/Abja_Life/home" component={() => <Home login={this.login} />} />
+                    <Route path="/Abja_Life/shop/:cid" component={Shop} />
+                    <Route path="/Abja_Life/detail/:pid" component={Detail} />
+                    <Route path="/Abja_Life/checkout" component={() => <Checkout updShipAdd={this.updShipAdd}/>} />
+                    <Route path="/Abja_Life/order_confirm"  component={OrderConfirm} />
+                    <Route path="/Abja_Life/shopping_cart" component={Cart} />
+                    <Route path="/Abja_Life/order_history" component={Orders} />
+                    <Route path="/Abja_Life/404" component={Error404} />
+                    <Route path="/Abja_Life/500" component={Error500} />
+                    <Redirect to="/Abja_Life/home" />
                 </Switch>
                 <Footer />
             </div>

@@ -428,7 +428,7 @@ class Checkout extends Component{
                                 <div className="col-3"></div>
                                 <div className="col-3">₹ {this.state.total}</div>
                             </div>
-                            <Link to="/order_confirm">
+                            <Link to="/Abja_Life/order_confirm">
                                 <div className="row pay_cont">
                                     <div className="pay_btn">Proceed To Pay</div>
                                 </div>

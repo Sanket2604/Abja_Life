@@ -126,7 +126,7 @@ class CartItem extends Component{
                     <div className="empty_cart">
                         <img src={emptyCart} alt="" />
                         <p>Your Cart is Empty.</p>
-                        <Link to="/home">
+                        <Link to="/Abja_Life/home">
                             <div className="btn_cont">
                                 <div className="shop_btn">Continue Shopping <img src={cart} alt="" height="30px" /></div>
                             </div>
@@ -265,7 +265,7 @@ class WishItem extends Component{
                     <div className="empty_cart">
                         <img src={thinking} alt="" />
                         <p>Wish List is Empty</p>
-                        <Link to="/home">
+                        <Link to="/Abja_Life/home">
                             <div className="btn_cont">
                                 <div className="shop_btn">Continue Shopping <img src={cart} alt="" height="30px" /></div>
                             </div>
@@ -324,7 +324,7 @@ class Cart extends Component{
                             <div className="total">₹ {this.state.total}</div>
                         </div>
                         <div className="checkout">
-                            <Link to="/checkout"><div className="checkout_btn">Checkout</div></Link>
+                            <Link to="/Abja_Life/checkout"><div className="checkout_btn">Checkout</div></Link>
                         </div>
                     </div>
                 </div>
