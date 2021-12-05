@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Abja_Life/static/css/main.d1d9fbe4.chunk.css",
-    "main.js": "/Abja_Life/static/js/main.1abb5167.chunk.js",
-    "main.js.map": "/Abja_Life/static/js/main.1abb5167.chunk.js.map",
+    "main.js": "/Abja_Life/static/js/main.9ad44669.chunk.js",
+    "main.js.map": "/Abja_Life/static/js/main.9ad44669.chunk.js.map",
     "runtime-main.js": "/Abja_Life/static/js/runtime-main.9b8ddff3.js",
     "runtime-main.js.map": "/Abja_Life/static/js/runtime-main.9b8ddff3.js.map",
     "static/css/2.61b4cb56.chunk.css": "/Abja_Life/static/css/2.61b4cb56.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.e968f65e.chunk.js",
     "static/css/main.d1d9fbe4.chunk.css",
-    "static/js/main.1abb5167.chunk.js"
+    "static/js/main.9ad44669.chunk.js"
   ]
 }
