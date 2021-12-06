@@ -11,7 +11,7 @@ function AllCatList(props){
     
     if(categoryList != null){
         return categoryList.map(list=>
-            <Link to={`/shop/${list.id}`}><div className="opt">{list.name}</div></Link>
+            <Link to={`/Abja_Life/shop/${list.id}`}><div className="opt">{list.name}</div></Link>
         );
     }
     else{
