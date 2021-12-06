@@ -11,7 +11,7 @@ function AllCatList(props){
     
     if(categoryList != null){
         return categoryList.map(list=>
-            <Link to={`/Abja_Life/shop/${list.id}`}><div className="opt">{list.name}</div></Link>
+            <Link to={`/shop/${list.id}`}><div className="opt">{list.name}</div></Link>
         );
     }
     else{
@@ -89,7 +89,7 @@ class Nav extends Component {
                 <div className="nav_cont">
                     <div className="logo"></div>
                     <div className="nav_items">
-                        <Link to="/Abja_Life/home"><div className="tab">Home</div></Link>
+                        <Link to="/home"><div className="tab">Home</div></Link>
                         <div className="tab shop">Shop
                             <div className="dropdown">
                                 <div className="column">
@@ -108,10 +108,10 @@ class Nav extends Component {
                         {/* <div className="tab">Pages</div> */}
                         <div className="tab contact">Contact
                             <div className="dropdown">
-                                <Link to="/Abja_Life/shopping_cart"><div className="option">Shopping Cart</div></Link>
-                                <Link to="/Abja_Life/checkout"><div className="option">Checkout Page</div></Link>
-                                <Link to="/Abja_Life/order_confirm"><div className="option">Order Confirmation</div></Link>
-                                <Link to="/Abja_Life/order_history"><div className="option">Order History</div></Link>
+                                <Link to="/shopping_cart"><div className="option">Shopping Cart</div></Link>
+                                <Link to="/checkout"><div className="option">Checkout Page</div></Link>
+                                <Link to="/order_confirm"><div className="option">Order Confirmation</div></Link>
+                                <Link to="/order_history"><div className="option">Order History</div></Link>
                             </div>
                         </div>
                     </div>
